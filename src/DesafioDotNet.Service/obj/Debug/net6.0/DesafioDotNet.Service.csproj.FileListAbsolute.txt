@@ -1,0 +1,17 @@
+C:\dev\DesafioDotNet\src\DesafioDotNet.Service\bin\Debug\net6.0\DesafioDotNet.Service.deps.json
+C:\dev\DesafioDotNet\src\DesafioDotNet.Service\bin\Debug\net6.0\DesafioDotNet.Service.dll
+C:\dev\DesafioDotNet\src\DesafioDotNet.Service\bin\Debug\net6.0\DesafioDotNet.Service.pdb
+C:\dev\DesafioDotNet\src\DesafioDotNet.Service\obj\Debug\net6.0\DesafioDotNet.Service.csproj.AssemblyReference.cache
+C:\dev\DesafioDotNet\src\DesafioDotNet.Service\obj\Debug\net6.0\DesafioDotNet.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\DesafioDotNet\src\DesafioDotNet.Service\obj\Debug\net6.0\DesafioDotNet.Service.AssemblyInfoInputs.cache
+C:\dev\DesafioDotNet\src\DesafioDotNet.Service\obj\Debug\net6.0\DesafioDotNet.Service.AssemblyInfo.cs
+C:\dev\DesafioDotNet\src\DesafioDotNet.Service\obj\Debug\net6.0\DesafioDotNet.Service.csproj.CoreCompileInputs.cache
+C:\dev\DesafioDotNet\src\DesafioDotNet.Service\obj\Debug\net6.0\DesafioDotNet.Service.dll
+C:\dev\DesafioDotNet\src\DesafioDotNet.Service\obj\Debug\net6.0\refint\DesafioDotNet.Service.dll
+C:\dev\DesafioDotNet\src\DesafioDotNet.Service\obj\Debug\net6.0\DesafioDotNet.Service.pdb
+C:\dev\DesafioDotNet\src\DesafioDotNet.Service\obj\Debug\net6.0\ref\DesafioDotNet.Service.dll
+C:\dev\DesafioDotNet\src\DesafioDotNet.Service\bin\Debug\net6.0\DesafioDotNet.Domain.dll
+C:\dev\DesafioDotNet\src\DesafioDotNet.Service\bin\Debug\net6.0\DesafioDotNet.Infra.Data.dll
+C:\dev\DesafioDotNet\src\DesafioDotNet.Service\bin\Debug\net6.0\DesafioDotNet.Domain.pdb
+C:\dev\DesafioDotNet\src\DesafioDotNet.Service\bin\Debug\net6.0\DesafioDotNet.Infra.Data.pdb
+C:\dev\DesafioDotNet\src\DesafioDotNet.Service\obj\Debug\net6.0\DesafioDotNet.Service.csproj.CopyComplete

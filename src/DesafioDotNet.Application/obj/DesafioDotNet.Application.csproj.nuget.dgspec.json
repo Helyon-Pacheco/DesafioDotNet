@@ -1,0 +1,274 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Application\\DesafioDotNet.Application.csproj": {}
+  },
+  "projects": {
+    "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Application\\DesafioDotNet.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Application\\DesafioDotNet.Application.csproj",
+        "projectName": "DesafioDotNet.Application",
+        "projectPath": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Application\\DesafioDotNet.Application.csproj",
+        "packagesPath": "C:\\Users\\Helyon\\.nuget\\packages\\",
+        "outputPath": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Helyon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj": {
+                "projectPath": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj"
+              },
+              "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Infra.Data\\DesafioDotNet.Infra.Data.csproj": {
+                "projectPath": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Infra.Data\\DesafioDotNet.Infra.Data.csproj"
+              },
+              "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Service\\DesafioDotNet.Service.csproj": {
+                "projectPath": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Service\\DesafioDotNet.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj",
+        "projectName": "DesafioDotNet.Domain",
+        "projectPath": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj",
+        "packagesPath": "C:\\Users\\Helyon\\.nuget\\packages\\",
+        "outputPath": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Helyon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Infra.Data\\DesafioDotNet.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Infra.Data\\DesafioDotNet.Infra.Data.csproj",
+        "projectName": "DesafioDotNet.Infra.Data",
+        "projectPath": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Infra.Data\\DesafioDotNet.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\Helyon\\.nuget\\packages\\",
+        "outputPath": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Helyon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj": {
+                "projectPath": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.*, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Service\\DesafioDotNet.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Service\\DesafioDotNet.Service.csproj",
+        "projectName": "DesafioDotNet.Service",
+        "projectPath": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Service\\DesafioDotNet.Service.csproj",
+        "packagesPath": "C:\\Users\\Helyon\\.nuget\\packages\\",
+        "outputPath": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Helyon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj": {
+                "projectPath": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj"
+              },
+              "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Infra.Data\\DesafioDotNet.Infra.Data.csproj": {
+                "projectPath": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Infra.Data\\DesafioDotNet.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\dev\DesafioDotNet\src\DesafioDotNet.Domain\bin\Debug\net6.0\DesafioDotNet.Domain.deps.json
+C:\dev\DesafioDotNet\src\DesafioDotNet.Domain\bin\Debug\net6.0\DesafioDotNet.Domain.dll
+C:\dev\DesafioDotNet\src\DesafioDotNet.Domain\bin\Debug\net6.0\DesafioDotNet.Domain.pdb
+C:\dev\DesafioDotNet\src\DesafioDotNet.Domain\obj\Debug\net6.0\DesafioDotNet.Domain.csproj.AssemblyReference.cache
+C:\dev\DesafioDotNet\src\DesafioDotNet.Domain\obj\Debug\net6.0\DesafioDotNet.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\DesafioDotNet\src\DesafioDotNet.Domain\obj\Debug\net6.0\DesafioDotNet.Domain.AssemblyInfoInputs.cache
+C:\dev\DesafioDotNet\src\DesafioDotNet.Domain\obj\Debug\net6.0\DesafioDotNet.Domain.AssemblyInfo.cs
+C:\dev\DesafioDotNet\src\DesafioDotNet.Domain\obj\Debug\net6.0\DesafioDotNet.Domain.csproj.CoreCompileInputs.cache
+C:\dev\DesafioDotNet\src\DesafioDotNet.Domain\obj\Debug\net6.0\DesafioDotNet.Domain.dll
+C:\dev\DesafioDotNet\src\DesafioDotNet.Domain\obj\Debug\net6.0\refint\DesafioDotNet.Domain.dll
+C:\dev\DesafioDotNet\src\DesafioDotNet.Domain\obj\Debug\net6.0\DesafioDotNet.Domain.pdb
+C:\dev\DesafioDotNet\src\DesafioDotNet.Domain\obj\Debug\net6.0\ref\DesafioDotNet.Domain.dll
