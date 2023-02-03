@@ -42,6 +42,7 @@ public class DesafioDotNetDbContext : DbContext
 
             if (entry.State == EntityState.Modified)
             {
+                entry.Property("CreatedAt").IsModified = false;
                 entry.Property("UpdatedAt").CurrentValue = DateTime.Now;
             }
         }

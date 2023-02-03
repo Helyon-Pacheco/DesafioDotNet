@@ -1,75 +1,82 @@
-using System.Threading.Tasks;
+using AutoMapper;
+using DesafioDotNet.Domain.Interfaces;
 using DesafioDotNet.Domain.Models;
-using DesafioDotNet.Infra.Data.Context;
+using DesafioDotNet.Infra.Data.Interfaces;
+using DesafioDotNet.Service.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace DesafioDotNet.Application.Controllers;
 
 [Route("api/[controller]")]
-public class ProductController : ControllerBase
+public class ProductController : MainController
 {
-    private readonly DesafioDotNetDbContext _context;
+    public readonly IProductRepository _repository;
+    public readonly IProductService _service;
+    public IMapper _mapper;
 
-    public ProductController(DesafioDotNetDbContext context) =>
-        _context = context;
+    public ProductController(IProductRepository productRepository, IProductService productService,
+            IMapper mapper, INotifier notifier) : base(notifier)
+    {
+        _repository = productRepository;
+        _service = productService;
+        _mapper = mapper;
+    }
 
 
     [HttpGet]
-    public async Task<List<Products>> GetAll() =>
-        await _context.Products.ToListAsync();
+    public async Task<IEnumerable<Products>> GetAll()
+    {
+        var product = _mapper.Map<IEnumerable<Products>>(await _repository.GetAll());
+        return product;
+    }
+        
 
     [HttpGet("{id}")]
     public async Task<ActionResult<Products>> Get(int id)
     {
-        var product = await _context.Products.FindAsync(id);
+        var product = _mapper.Map<Products>(await _repository.GetById(id));
 
-        if (product is null)
-        {
-            return NotFound();
-        }
-
+        if (product is null) return NotFound();
+        
         return product;
     }
 
     [HttpPost]
     public async Task<IActionResult> Create([FromBody] Products product)
     {
-        _context.Products.Add(product);
-        await _context.SaveChangesAsync();
+        if (!ModelState.IsValid) return CustomResponse(ModelState);
 
-        return CreatedAtAction(nameof(Get), new { id = product.Id }, product);
+        await _repository.Add(_mapper.Map<Products>(product));
+
+        return CustomResponse(product);
     }
 
     [HttpPut("{id}")]
     public async Task<IActionResult> Update(int id, [FromBody] Products product)
     {
-        await _context.Products.FindAsync(id);
-
-        if (product is null)
+        if (id != product.Id)
         {
-            return NotFound();
+            NotifyError("O id informado não é o mesmo que foi passado na query");
+            return CustomResponse(product);
         }
-        
-        _context.Products.Update(product);
-        await _context.SaveChangesAsync();
 
-        return NoContent();
+        if (!ModelState.IsValid) return CustomResponse(ModelState);
+
+        await _service.Update(_mapper.Map<Products>(product));
+
+        return CustomResponse(product);
     }
 
     [HttpDelete("{id}")]
     public async Task<IActionResult> Delete(int id)
     {
-        var product = await _context.Products.FindAsync(id);
+        var product = await _repository.GetById(id);
 
-        if (product is null)
-        {
-            return NotFound();
-        }
 
-        _context.Products.Remove(product);
-        await _context.SaveChangesAsync();
+        if (product == null) return NotFound();
 
-        return NoContent();
+        await _repository.Remove(id);
+
+        return CustomResponse(product);
     }
 }

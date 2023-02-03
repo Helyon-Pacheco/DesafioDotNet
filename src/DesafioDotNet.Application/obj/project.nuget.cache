@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "rWdTn7O1Y+/tgLgIPGycvjVcegaQ5Fi2udmF6ZvqD7lshjf1uNbzcZGgT+upQHdjB92YgP7ChWTKnVCzXkMpaw==",
+  "dgSpecHash": "Or5fZI+dvhSnts7Q77qZ+53vPujVtZFOL8Ch5FLlr22wrspnLuslSqJRWqaTf/FFfBHtRrCRLqDiVOkgeXbanA==",
   "success": true,
   "projectFilePath": "C:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Application\\DesafioDotNet.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Helyon\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Helyon\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\Helyon\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
-    "C:\\Users\\Helyon\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Helyon\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Helyon\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Helyon\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\Helyon\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.13\\microsoft.entityframeworkcore.6.0.13.nupkg.sha512",
