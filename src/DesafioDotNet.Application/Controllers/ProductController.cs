@@ -50,7 +50,7 @@ public class ProductController : ControllerBase
         {
             return NotFound();
         }
-
+        
         _context.Products.Update(product);
         await _context.SaveChangesAsync();
 

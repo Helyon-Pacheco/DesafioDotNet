@@ -1,5 +1,6 @@
 using DesafioDotNet.Domain.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Design;
 
 namespace DesafioDotNet.Infra.Data.Context;
 
@@ -47,4 +48,15 @@ public class DesafioDotNetDbContext : DbContext
 
         return base.SaveChangesAsync(cancellationToken);
     }
+    public class DesafioDotNetDbContextFactory : IDesignTimeDbContextFactory<DesafioDotNetDbContext>
+    {
+        public DesafioDotNetDbContext CreateDbContext(string[] args)
+        {
+            var optionsBuilder = new DbContextOptionsBuilder<DesafioDotNetDbContext>();
+            optionsBuilder.UseSqlServer("DefaultConnection");
+
+            return new DesafioDotNetDbContext(optionsBuilder.Options);
+        }
+    }
 }
+
