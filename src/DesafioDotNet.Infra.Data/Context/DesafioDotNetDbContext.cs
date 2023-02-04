@@ -14,9 +14,9 @@ public class DesafioDotNetDbContext : DbContext
 
     public DbSet<Products> Products { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder options) 
+    /*protected override void OnConfiguring(DbContextOptionsBuilder options) 
         => options.UseSqlServer("Server=localhost,1433;Database=DesafioDotNet;User Id=sa;Password=123456Sa;Trusted_Connection=False;TrustServerCertificate=True;MultipleActiveResultSets=true");
-
+*/
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         foreach (var property in modelBuilder.Model.GetEntityTypes()

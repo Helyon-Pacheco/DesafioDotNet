@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DesafioDotNet.Infra.Data.Migrations
 {
     [DbContext(typeof(DesafioDotNetDbContext))]
-    [Migration("20230203000839_Initial")]
+    [Migration("20230204133317_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -59,7 +59,7 @@ namespace DesafioDotNet.Infra.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Books", (string)null);
+                    b.ToTable("Products", (string)null);
                 });
 #pragma warning restore 612, 618
         }

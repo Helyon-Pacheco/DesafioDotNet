@@ -22,6 +22,6 @@ public class ProductMapping : IEntityTypeConfiguration<Products>
             .IsRequired()
             .HasColumnType("varchar(100)");
 
-        builder.ToTable("Books");
+        builder.ToTable("Products");
     }
 }

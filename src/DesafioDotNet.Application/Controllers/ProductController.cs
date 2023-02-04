@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DesafioDotNet.Application.Controllers;
 
-[Route("api/[controller]")]
+[Route("api/product")]
 public class ProductController : MainController
 {
     public readonly IProductRepository _repository;
