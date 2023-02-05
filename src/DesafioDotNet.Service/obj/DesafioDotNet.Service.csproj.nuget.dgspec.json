@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Service\\DesafioDotNet.Service.csproj": {}
+    "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Service\\DesafioDotNet.Service.csproj": {}
   },
   "projects": {
-    "C:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj": {
+    "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj",
+        "projectUniqueName": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj",
         "projectName": "DesafioDotNet.Domain",
-        "projectPath": "C:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj",
+        "projectPath": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj",
         "packagesPath": "C:\\Users\\Helyon\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Domain\\obj\\",
+        "outputPath": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Helyon\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Infra.Data\\DesafioDotNet.Infra.Data.csproj": {
+    "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Infra.Data\\DesafioDotNet.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Infra.Data\\DesafioDotNet.Infra.Data.csproj",
+        "projectUniqueName": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Infra.Data\\DesafioDotNet.Infra.Data.csproj",
         "projectName": "DesafioDotNet.Infra.Data",
-        "projectPath": "C:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Infra.Data\\DesafioDotNet.Infra.Data.csproj",
+        "projectPath": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Infra.Data\\DesafioDotNet.Infra.Data.csproj",
         "packagesPath": "C:\\Users\\Helyon\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Infra.Data\\obj\\",
+        "outputPath": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Helyon\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -85,8 +85,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj": {
-                "projectPath": "C:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj"
+              "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj": {
+                "projectPath": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj"
               }
             }
           }
@@ -132,14 +132,14 @@
         }
       }
     },
-    "C:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Service\\DesafioDotNet.Service.csproj": {
+    "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Service\\DesafioDotNet.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Service\\DesafioDotNet.Service.csproj",
+        "projectUniqueName": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Service\\DesafioDotNet.Service.csproj",
         "projectName": "DesafioDotNet.Service",
-        "projectPath": "C:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Service\\DesafioDotNet.Service.csproj",
+        "projectPath": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Service\\DesafioDotNet.Service.csproj",
         "packagesPath": "C:\\Users\\Helyon\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Service\\obj\\",
+        "outputPath": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Helyon\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -154,11 +154,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj": {
-                "projectPath": "C:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj"
+              "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj": {
+                "projectPath": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj"
               },
-              "C:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Infra.Data\\DesafioDotNet.Infra.Data.csproj": {
-                "projectPath": "C:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Infra.Data\\DesafioDotNet.Infra.Data.csproj"
+              "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Infra.Data\\DesafioDotNet.Infra.Data.csproj": {
+                "projectPath": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Infra.Data\\DesafioDotNet.Infra.Data.csproj"
               }
             }
           }

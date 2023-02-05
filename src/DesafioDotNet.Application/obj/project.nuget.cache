@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Or5fZI+dvhSnts7Q77qZ+53vPujVtZFOL8Ch5FLlr22wrspnLuslSqJRWqaTf/FFfBHtRrCRLqDiVOkgeXbanA==",
+  "dgSpecHash": "5Vi81+Jz2So1+8L7bxoGF8VmiDux72vLmBf8OUlZOuBcAai5JW4/DX7r0TxzyKKxz5PKDM8GdkE0wr0MDVJWGQ==",
   "success": true,
-  "projectFilePath": "C:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Application\\DesafioDotNet.Application.csproj",
+  "projectFilePath": "c:\\dev\\DesafioDotNet\\src\\DesafioDotNet.Application\\DesafioDotNet.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Helyon\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Helyon\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
